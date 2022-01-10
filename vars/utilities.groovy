@@ -11,7 +11,7 @@
 
             try {
                 stage ('Clone') {
-                    checkout scm
+                    sh "echo checkout here."
                 }
                 stage ('Build') {
                     sh "echo 'building ${config.projectName} ...'"
