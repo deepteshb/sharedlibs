@@ -1,4 +1,6 @@
-def call(int a, int b){
-    c = a + b
-    return c 
-    }
+def call(name){
+    sh "echo my name is ${name}"
+     }
+
+
+    
