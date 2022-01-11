@@ -10,11 +10,11 @@
    }
 	
    int getStudentID() {
-      return this.StudentID;
+      return StudentID;
    }
 	
    String getStudentName() {
-      return this.StudentName;
+      return StudentName;
    }
 	
    /* static void main(String[] args) {
