@@ -1,8 +1,18 @@
 def call(){
     
-step{
-    sh "echo 'This is me.'"
-}   
 
+    stage('build'){
+        sh "echo 'Build'"
 
-}
+    }
+    stage('sendnotification'){
+             sh "echo 'Notify'"
+            }
+
+     stage('deploy'){
+
+         sh "echo 'Deploy'"
+
+            }
+    
+    }
