@@ -1,4 +1,4 @@
-def call(){
+def call(standardPipeline){
     node{
         stage('example'){
             sh "echo this is my step"
@@ -12,7 +12,13 @@ def call(){
             sh "echo this is my step"
         }
     }
-     }
+}
+
+def setNotificationRoom(room){
+    def roomname = ${room}
+    sh "echo ${roomname}"
+    return roomname
+}
 
 
     
