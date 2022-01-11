@@ -5,7 +5,7 @@ def call(){
         }
 
         stage('envoy'){
-            sh "echo this is my step"
+            mail(subject: 'This is heading', body: 'This is my Body', to: 'deeptesh_b@persistent.com')
         }
 
         stage('deploy'){
