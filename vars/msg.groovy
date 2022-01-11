@@ -15,7 +15,7 @@ def call(standardPipeline){
 }
 
 def setNotificationRoom(room){
-    def roomname = ${room}
+    def roomname = room
     sh "echo ${roomname}"
     return roomname
 }
