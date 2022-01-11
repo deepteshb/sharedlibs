@@ -1,5 +1,3 @@
-package vars.msg
-class msg {
    private int StudentID;
    private String StudentName;
 	
@@ -27,7 +25,6 @@ class msg {
       println(st.getStudentID());
       println(st.getStudentName());
    }  */
-}
 
 def call(standardPipeline){
     node{
