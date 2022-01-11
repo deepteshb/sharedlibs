@@ -1,4 +1,4 @@
-package com.pgi.jenkins
+package com.pgi.jenkins.Pipeline
 class Pipeline {
    private int StudentID;
    private String StudentName;
