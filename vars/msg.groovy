@@ -1,5 +1,9 @@
-def call(name){
-    sh "echo my name is ${name}"
+def call(){
+    node{
+        stage('example'){
+            sh "echo this is my step"
+        }
+    }
      }
 
 
