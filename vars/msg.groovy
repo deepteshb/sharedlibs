@@ -1,6 +1,5 @@
 def call(){
-    
-
+    node{
     stage('build'){
         sh "echo 'Build'"
 
@@ -14,5 +13,5 @@ def call(){
          sh "echo 'Deploy'"
 
             }
-    
+    }
     }
